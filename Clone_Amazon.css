@@ -1,0 +1,242 @@
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+
+}
+.navbar{
+    height:60px;
+    background-color:#0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.nav_logo{
+    height: 50px;
+    width: 113px;
+}
+.logo{
+    background-image: url("Amazon-Emblem.jpg");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border:1px solid white;
+}
+.add-Deliver{
+   color:#cccccc;
+   font-size: 0.85rem;
+   margin-left: 15px;
+
+}
+.add-India{
+    font-size: 1rem;
+    margin-left:3px
+}
+.add-icon{
+    display:flex;
+    
+}
+.nav-address{
+    align-items: center;
+    margin-left: 10px;
+}
+.BOX3{
+    display: flex;
+    margin-left: 10px;
+    height:30px;
+}
+.BOX3:hover{
+    border: 2px solid  rgb(228, 149, 3)
+}
+.search-icon{
+    background-color: rgb(228, 149, 3);
+    width: 30px;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+i{
+    margin-left: 6px;
+}
+.Search-select{
+    width: 380px;
+
+}
+.all{
+    border-top-left-radius:4px;
+    border-bottom-left-radius: 4px;
+}
+.signin{
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 0.85rem;
+}
+.Hello{
+    color: rgb(233, 232, 232);
+    font-size: 0.7rem;
+}
+.Al{
+    font-weight: 700;
+}
+.RETURNS{
+    margin-left: 10px;
+    font-size: 0.9rem;
+}
+.R{
+    color: rgb(233, 232, 232);
+    font-size: 0.7rem;
+}
+.cart{
+    margin-left: 10px;
+    display: flex;
+    align-items: end;
+}
+.cart i{
+    font-size: 25px;
+}
+.c{
+    font-size: 0.85rem; 
+    font-weight: 700; 
+}
+.panel{
+    display: flex;
+    height: 40px;
+    background-color: #222f3d;
+    color:#cccccc;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+.panel-all{
+    display: flex;
+    align-items: center;
+}
+.panel-all p{
+    margin-left: 0.2rem;
+}
+.option{
+    width: 70%;
+    font-size: 0.85rem;
+    margin-left: 0.5rem;
+}
+.panel-deals{
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.hero-section{
+    background-image: url("61zAjw4bqPL._SX3000_ (1).jpg");
+    height:500px;
+    background-size: cover;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+}
+.para{
+    background-color: #e3e2e2;
+    color:black ;
+    height:40px;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    font-size: 14px;
+    width: 90%;
+    margin-left:5%;
+    
+}
+.para a{
+    color:#012b6e;
+}
+.shop-sec{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(249, 116, 79) ;
+    height: 700px;
+    flex-wrap: wrap;
+}
+.box{
+    margin-top: 3%;
+    height:270px;
+    width: 23%;
+    background-color: #e3e2e2;
+    padding: 20px 0px 15px;
+}
+.box-img{
+     height:80%;
+     background-size: cover;
+     margin-left: 1rem;
+     margin-right: 1rem;
+     margin-top: 0.7rem;
+     margin-bottom: 0.7rem;
+}
+.HandP{
+    margin-left: 1rem;
+     margin-right: 1rem;
+     font-size: large;
+}
+.SM{
+    margin-left: 1rem;
+     margin-right: 1rem;
+     color:#012b6e;
+}
+footer{
+    margin-top: 5px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color:white;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color:white;
+    height:350px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:top;
+}
+ul{
+    margin-top: 25px;
+
+}
+ul p{
+    font-size: 15px;
+
+}
+ul a{
+    display:block;
+    margin-top: 0.85rem;
+    font-size: small;
+    color:#dddddd
+
+}
+.foot-panel3{
+    border-top: 1px solid white;
+    color: white;
+    background-color:#0f1111;
+    height: 70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo2{
+    background-image: url("Amazon-Emblem.jpg");
+    height: 50px;
+    width:100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
